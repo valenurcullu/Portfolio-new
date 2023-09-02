@@ -5,6 +5,7 @@ const Footer = () => {
     return(
         <footer className="footer">
             Copyright ; 2023 Valentin Urcullu. All right received. 
+            Buenos Aires, Argentina.
         </footer>
     )
 }

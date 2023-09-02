@@ -11,7 +11,7 @@ import Portfolio6 from '../../assets/portfolio-6.png'
 const Works = ()=>{
     return(
         <selection id='works'>
-            <h2 className="WorksTitle">My Portfolio</h2>
+            <h2 className="worksTitle">My Portfolio</h2>
             <span className="worksDesc">these are some of my examples of my projects</span>
             <div className="worksImgs">
                 <img src={Portfolio1} alt="" className="worksImg"></img>

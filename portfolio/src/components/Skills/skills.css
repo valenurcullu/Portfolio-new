@@ -1,3 +1,74 @@
+/* .skills__containerAll{
+    overflow: hidden;
+    width: 200vh;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+} 
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.skillDesc{
+    font-weight:400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0.2rem;
+}
+.skills__container{
+    grid-template-columns: repeat(2,350px);
+    column-gap: 3rem;
+    justify-content: center;
+    
+}
+.skills__content{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+.skills__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+}
+.skills__box{
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+.skills_group{
+    display: grid;
+    align-items: flex-start;
+    row-gap: 0.5rem;
+}
+
+.skills__data{
+    display: flex;
+    column-gap: 0.5rem;
+}
+.skills,.bx-badge-check{
+    font-size: 1rem;
+    color: white;
+}
+.skills__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+}
+.skills__level{
+    font-size: var(--tiny-font-size);
+} */
+
+
+
 #skills{
     overflow: hidden;
     width: 200vh;
@@ -40,14 +111,24 @@
 
 .skillBarImg{
     object-fit: cover;
-    height: 3rem;
-    height: 3rem;
+    height: 5rem;
+    width: 5rem;
     margin-right: 2rem ;
+}
+.span{
+    width: fit-content;
+    height: fit-content;
+    background: rgb(40, 40, 40);
+    border-radius: 0.4rem;
+    
 }
 
 .skillBarText>p{
-    font-size: 0.9rem;
-    font-weight: 200;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.subtitles{
+    color: yellow;
 }
 
 @media screen and(max-width:720px){
