@@ -1,7 +1,7 @@
 import React from "react";
 import './works.css';
-import Portfolio1 from '../../assets/portfolio-1.png'
-import Portfolio2 from '../../assets/portfolio-2.png'
+import Rick from '../../assets/capturaRick.png'
+import Dogs from '../../assets/capturaDogs.png'
 import Portfolio3 from '../../assets/portfolio-3.png'
 import Portfolio4 from '../../assets/portfolio-4.png'
 import Portfolio5 from '../../assets/portfolio-5.png'
@@ -14,12 +14,15 @@ const Works = ()=>{
             <h2 className="worksTitle">My Portfolio</h2>
             <span className="worksDesc">these are some of my examples of my projects</span>
             <div className="worksImgs">
-                <img src={Portfolio1} alt="" className="worksImg"></img>
-                <img src={Portfolio2} alt="" className="worksImg"></img>
-                <img src={Portfolio3} alt="" className="worksImg"></img>
-                <img src={Portfolio4} alt="" className="worksImg"></img>
-                <img src={Portfolio5} alt="" className="worksImg"></img>
-                <img src={Portfolio6} alt="" className="worksImg"></img>
+                <a href="https://rick-and-morty-psi-eight.vercel.app/" target="_blank" rel="noreferrer">
+                <img src={Rick} alt="" className="worksImg"></img>
+                </a>
+                <a href="https://dogs-one-ochre.vercel.app/" target="_blank" rel="noreferrer">
+                <img src={Dogs} alt="" className="worksImg"></img>
+                </a>
+                <h2 className="worksSubTitle">More projects will be uploded soon...</h2>
+                {/* <img src={Portfolio3} alt="" className="worksImg"></img>
+                <img src={Portfolio4} alt="" className="worksImg"></img> */}
             </div>
             
         </selection>

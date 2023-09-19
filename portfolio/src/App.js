@@ -3,7 +3,8 @@ import Intro from './components/Intro/intro.js';
 import Skills from './components/Skills/skills.js'
 import Works from './components/Works/works.js';
 import Contact from './components/Contact/contact.js';
-import Footer from './components/Footer/footer.js'
+import Footer from './components/Footer/footer.js';
+
 
 function App() {
   return (
